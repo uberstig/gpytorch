@@ -11,5 +11,12 @@ from .wishart_prior import InverseWishartPrior, WishartPrior
 from .lkj_prior import LKJCovariancePrior
 
 
-__all__ = [GammaPrior, InverseWishartPrior, MultivariateNormalPrior, NormalPrior,
-           SmoothedBoxPrior, WishartPrior, LKJCovariancePrior]
+__all__ = [
+    GammaPrior,
+    InverseWishartPrior,
+    MultivariateNormalPrior,
+    NormalPrior,
+    SmoothedBoxPrior,
+    WishartPrior,
+    LKJCovariancePrior,
+]
